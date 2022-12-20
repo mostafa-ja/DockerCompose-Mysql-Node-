@@ -5,7 +5,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: test
-     ports:
+    ports:
        - "8081:3306"
     restart: always
     
