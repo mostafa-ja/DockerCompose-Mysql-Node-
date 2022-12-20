@@ -2,4 +2,4 @@ FROM mysql
 
 EXPOSE 3306
 
-COPY ./data/testdump.sql /docker-entrypoint-initdb.d/
+COPY ./testdump.sql /docker-entrypoint-initdb.d/
